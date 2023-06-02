@@ -1,0 +1,18 @@
+AOP(Aspect Oriented Programming):-
+	public class Account{
+		public void withdraw(){
+			-Authentication
+			-Withdraw logic
+			-Logout
+			
+		}
+		public void deposit(){
+			-Authentication
+			-Deposit logic
+			-Logout
+			
+		}
+	}
+
+-Authentication -- Before Advice
+-Logout -- After advice
